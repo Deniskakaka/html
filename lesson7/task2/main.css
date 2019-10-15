@@ -16,6 +16,7 @@ li:nth-child(even) span {
     margin-left: 16px;
 }
 
-.paragraphs p:first-child {
+.paragraphs p:first-child,
+p:nth-last-child(3) {
     background-color: grey;
 }
