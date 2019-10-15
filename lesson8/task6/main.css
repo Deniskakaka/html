@@ -1,0 +1,20 @@
+.blue {
+    padding: 50px;
+    margin: 50px;
+    background-color: blue;
+}
+
+.yellow {
+    padding: 50px;
+    background-color: yellow;
+}
+
+.green {
+    padding: 50px;
+    background-color: green;
+}
+
+.pink {
+    padding: 50px;
+    background-color: pink;
+}
