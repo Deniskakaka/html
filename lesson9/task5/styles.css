@@ -6,9 +6,25 @@
     z-index: 2;
 }
 
-.header nav li {
+.header nav li:first-child {
     float: left;
-    margin: 0 16px 0 16px;
+    margin-left: 16px;
+    position: relative;
+    color: white;
+    list-style-type: none;
+}
+
+.header nav li:last-child {
+    float: left;
+    margin-left: 21px;
+    position: relative;
+    color: white;
+    list-style-type: none;
+}
+
+.header nav li:nth-child(2) {
+    float: left;
+    margin-left: 21px;
     position: relative;
     color: white;
     list-style-type: none;
