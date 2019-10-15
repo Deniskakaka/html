@@ -48,6 +48,6 @@ body div:nth-child(5) p:nth-child(3) {
 }
 
 body div:nth-child(5) em {
-    color: yellow;
+    color: white;
     font-size: 20px;
 }
