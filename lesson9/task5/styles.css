@@ -9,6 +9,8 @@
 .header nav li {
     float: left;
     margin-left: 16px;
+    position: relative;
+    bottom: 5px;
     color: white;
     list-style-type: none;
 }
