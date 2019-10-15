@@ -9,7 +9,7 @@
 .header nav li:first-child {
     float: left;
     margin-left: 16px;
-    padding: 12px 0 15px 0;
+    padding: 12px 0 12px 0;
     position: relative;
     top: -17px;
     color: white;
@@ -19,7 +19,7 @@
 .header nav li:last-child {
     float: left;
     margin-left: 21px;
-    padding: 12px 0 15px 0;
+    padding: 12px 0 12px 0;
     position: relative;
     top: -17px;
     color: white;
@@ -29,7 +29,7 @@
 .header nav li:nth-child(2) {
     float: left;
     margin-left: 21px;
-    padding: 12px 0 15px 0;
+    padding: 12px 0 12px 0;
     position: relative;
     top: -17px;
     color: white;
