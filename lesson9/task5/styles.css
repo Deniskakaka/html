@@ -1,28 +1,32 @@
 .header {
+    display: flex;
+    align-items: center;
     background-color: darkturquoise;
     height: 40px;
     position: fixed;
     width: 100%;
     z-index: 2;
-    padding: 10px 0 10px 0;
+}
+
+.header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .header nav li:first-child {
-    float: left;
     margin-left: 16px;
     color: white;
     list-style-type: none;
 }
 
 .header nav li:last-child {
-    float: left;
     margin-left: 21px;
     color: white;
     list-style-type: none;
 }
 
 .header nav li:nth-child(2) {
-    float: left;
     margin-left: 21px;
     color: white;
     list-style-type: none;
