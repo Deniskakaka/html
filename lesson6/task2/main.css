@@ -2,6 +2,10 @@ li {
     margin-bottom: 16px;
 }
 
+li span {
+    color: white;
+}
+
 ol li>span {
     background-color: green;
 }
