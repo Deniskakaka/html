@@ -39,15 +39,15 @@ input[type="text"] {
     background-color: gray;
 }
 
-.three p {
+body div:nth-child(5) p {
     background-color: pink;
 }
 
-.three p:last-child {
+body div:nth-child(5) p:nth-child(3) {
     border: 5px solid white;
 }
 
-.three em {
+body div:nth-child(5) em {
     color: white;
     font-size: 20px;
 }
