@@ -40,7 +40,7 @@ input[type="text"] {
 }
 
 body div:nth-child(5) p {
-    background-color: pink;
+    background-color: yellow;
 }
 
 body div:nth-child(5) p:nth-child(3) {
@@ -48,6 +48,6 @@ body div:nth-child(5) p:nth-child(3) {
 }
 
 body div:nth-child(5) em {
-    color: white;
+    color: yellow;
     font-size: 20px;
 }
