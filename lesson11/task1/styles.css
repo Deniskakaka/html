@@ -3,7 +3,7 @@
 }
 
 .hidden {
-    overflow: hidden;
+    visibility: hidden;
 }
 
 .visible {
