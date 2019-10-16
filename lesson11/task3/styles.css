@@ -15,7 +15,7 @@ body {
 }
 
 .menu-button {
-    padding: 15px;
+    padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
     cursor: pointer;
@@ -33,7 +33,7 @@ body {
 }
 
 .menu-item {
-    padding: 15px;
+    padding: 16px;
     list-style: none;
 }
 
