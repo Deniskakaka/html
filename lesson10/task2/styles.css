@@ -44,7 +44,6 @@ body {
 .main_saidbar {
     display: flex;
     width: 200px;
-    height: 100%;
     background-color: grey;
     order: 2;
     flex-direction: column;
