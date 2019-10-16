@@ -22,6 +22,8 @@
 
 .menu-button:hover {
     opacity: 1;
+    padding: 16px;
+    color: white;
 }
 
 .dropdown {
