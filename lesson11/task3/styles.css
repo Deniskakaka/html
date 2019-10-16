@@ -1,7 +1,8 @@
 .menu-list {
     display: none;
     position: absolute;
-    top: 62px;
+    top: 50px;
+    left: 0;
     margin: 0;
     padding: 0;
     background-color: lightcyan;
@@ -12,7 +13,6 @@
 }
 
 .menu-button {
-    padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
     font-size: 16px;
@@ -22,16 +22,21 @@
 
 .menu-button:hover {
     opacity: 1;
-    padding: 16px;
+    font-size: 16px;
     color: white;
 }
 
 .dropdown {
-    margin: 32px;
+    position: relative;
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    cursor: pointer;
+    background-color: darkgreen;
 }
 
 .menu-item {
-    padding: 16px;
+    margin: 16px;
     list-style-type: none;
 }
 
