@@ -13,6 +13,7 @@ div {
     width: 150px;
     background-color: beige;
     margin: 16px;
+    cursor: all-scroll;
 }
 
 .cropped {
