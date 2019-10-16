@@ -1,11 +1,11 @@
-.container:first-child {
+.display {
     display: none;
 }
 
-.container:nth-child(2) {
+.hidden {
     overflow: hidden;
 }
 
-.container:last-child {
+.visible {
     overflow: visible;
 }
