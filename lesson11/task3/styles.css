@@ -21,7 +21,6 @@
 }
 
 .menu-button:hover {
-    opacity: 1;
     font-size: 16px;
     color: white;
 }
@@ -36,7 +35,7 @@
 }
 
 .menu-item {
-    margin: 16px;
+    padding: 16px;
     list-style-type: none;
 }
 
