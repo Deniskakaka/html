@@ -1,0 +1,11 @@
+.container:first-child {
+    display: none;
+}
+
+.container:nth-child(2) {
+    overflow: hidden;
+}
+
+.container:last-child {
+    overflow: visible;
+}
