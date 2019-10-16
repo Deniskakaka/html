@@ -1,0 +1,17 @@
+.horizontal {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+span {
+    margin: auto;
+}
+
+.vertical {
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    align-items: space-around;
+}
