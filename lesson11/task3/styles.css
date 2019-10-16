@@ -22,9 +22,9 @@ body {
     color: white;
 }
 
-.menu-button:hover {
+.dropdown:hover .menu-button {
     opacity: 1;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .dropdown {
