@@ -9,7 +9,7 @@ body {
 .block_block_yellow,
 .block_block_black {
     height: 300px;
-    width: 100%;
+    width: 100vw;
 }
 
 .block_block_red {
