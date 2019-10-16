@@ -9,8 +9,7 @@ body {
 .block_block_yellow,
 .block_block_black {
     height: 300px;
-    width: 100vw;
-    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .block_block_red {
