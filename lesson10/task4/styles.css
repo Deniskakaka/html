@@ -2,31 +2,31 @@
     display: flex;
 }
 
-.block_block_red,
-.block_block_green,
-.block_block_blue,
-.block_block_yellow,
-.block_block_black {
+.block_red,
+.block_green,
+.block_blue,
+.block_yellow,
+.block_black {
     height: 300px;
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
-.block_block_red {
+.block_red {
     background-color: red;
 }
 
-.block_block_green {
+.block_green {
     background-color: green;
 }
 
-.block_block_blue {
+.block_blue {
     background-color: blue;
 }
 
-.block_block_yellow {
+.block_yellow {
     background-color: yellow;
 }
 
-.block_block_black {
+.block_black {
     background-color: black;
 }
