@@ -10,6 +10,7 @@ body {
 .block_block_black {
     height: 300px;
     width: 100vw;
+    flex-wrap: wrap;
 }
 
 .block_block_red {
