@@ -1,35 +1,40 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-}
-
-.content {
+section {
     margin: 32px;
 }
 
-.title {
+html {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+}
+
+h1 {
     word-spacing: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.paragraph {
+p {
     line-height: 28px;
 }
 
-.first-word {
+.bold {
+    font-weight: bold;
+    letter-spacing: 3px;
     font-size: 24px;
     opacity: 0.8;
-    letter-spacing: 3px;
     text-decoration: underline;
 }
 
-.translation {
+div {
+    display: inline;
+}
+
+.english {
     font-style: italic;
     color: gray;
 }
 
-a {
+.blue {
+    color: blue;
     text-decoration: none;
 }
