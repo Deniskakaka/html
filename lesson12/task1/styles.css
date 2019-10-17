@@ -18,7 +18,6 @@ p {
 }
 
 .bold {
-    font-weight: 700;
     letter-spacing: 3px;
     font-size: 24px;
     opacity: 0.8;
@@ -31,10 +30,9 @@ div {
 
 .english {
     font-style: italic;
-    color: grey;
+    color: gray;
 }
 
 .blue {
-    color: blue;
     text-decoration: none;
 }
