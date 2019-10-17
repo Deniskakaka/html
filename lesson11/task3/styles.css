@@ -2,24 +2,7 @@ body {
     display: flex;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin: 16px;
-}
-
-​ .menu-button {
-    display: block;
-    background-color: darkgreen;
-    opacity: 0.8;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-​ .menu-list {
+.menu-list {
     padding: 0;
     margin: 0;
     display: none;
@@ -30,23 +13,34 @@ body {
     z-index: 1;
 }
 
-​ .menu-item {
+.menu-button {
+    display: block;
+    background-color: darkgreen;
+    opacity: 0.8;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .menu-button {
+    opacity: 1;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 16px;
+}
+
+.menu-item {
     color: black;
     padding: 16px;
     text-decoration: none;
     display: block;
 }
 
-​ .menu-item:hover {
-    background-color: ghostwhite;
-}
-
-​ .dropdown:hover .menu-list {
+.dropdown:hover .menu-list {
     display: block;
 }
-
-​ .dropdown:hover .menu-button {
-    opacity: 1;
-}
-
-Collapse
