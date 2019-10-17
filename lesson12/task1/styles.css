@@ -1,40 +1,35 @@
-section {
-    margin: 32px;
-}
-
-html {
-    font-family: 'Roboto', 'sans-serif';
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
-h1 {
+.content {
+    margin: 32px;
+}
+
+.title {
     word-spacing: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
-p {
+.paragraph {
     line-height: 28px;
 }
 
-.bold {
-    font-weight: bold;
-    letter-spacing: 3px;
+.first-word {
     font-size: 24px;
     opacity: 0.8;
+    letter-spacing: 3px;
     text-decoration: underline;
 }
 
-div {
-    display: inline;
-}
-
-.english {
+.translation {
     font-style: italic;
     color: gray;
 }
 
-.blue {
-    color: blue;
+a {
     text-decoration: none;
 }
