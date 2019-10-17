@@ -1,4 +1,4 @@
-body {
+section {
     margin: 32px;
 }
 
@@ -30,6 +30,6 @@ div {
 }
 
 .english {
-    font-family: italic;
+    font-style: italic;
     color: grey;
 }
