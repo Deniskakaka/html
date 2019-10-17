@@ -6,6 +6,6 @@ li {
     color: #ff3399;
     font-size: 24px;
     line-height: 32px;
-    padding: 9px;
+    padding: 9px 8px 8px 8px;
     list-style-type: none;
 }
