@@ -8,11 +8,11 @@ h1 {
     text-overflow: ellipsis;
     overflow: hidden;
     width: 50%;
-    margin: 20px auto;
+    margin: 16px auto;
 }
 
 div {
-    height: 200px;
+    height: 210px;
     background-color: coral;
     color: white;
     text-transform: uppercase;
