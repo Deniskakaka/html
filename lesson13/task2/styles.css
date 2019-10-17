@@ -5,3 +5,8 @@ div {
     height: 100px;
     background-position-x: 500px;
 }
+
+div:hover {
+    background-position-x: 500px;
+    background-position-y: 500px;
+}
