@@ -2,10 +2,14 @@ html {
     font-size: 18px;
 }
 
+.properties-list {
+    margin: 23px 0;
+}
+
 li {
     color: #ff3399;
     font-size: 24px;
-    line-height: 30px;
-    padding: 9px 8px 8px 8px;
+    line-height: 32px;
+    padding: 8px;
     list-style-type: none;
 }
