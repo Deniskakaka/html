@@ -24,7 +24,7 @@ body {
 
 .dropdown:hover .menu-button {
     opacity: 1;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .dropdown {
