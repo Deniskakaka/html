@@ -1,0 +1,14 @@
+div {
+    margin: 16px;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+}
+
+span {
+    position: relative;
+    bottom: -35px;
+    right: 118px;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 8px;
+}
