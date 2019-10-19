@@ -6,9 +6,7 @@ div {
     position: relative;
 }
 
-.male,
-.female,
-.secret {
+.male {
     position: relative;
     right: 5px;
 }
