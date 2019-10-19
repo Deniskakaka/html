@@ -1,3 +1,14 @@
 div {
     margin: 16px;
 }
+
+.choose-gender {
+    position: relative;
+}
+
+.male,
+.female,
+.secret {
+    position: relative;
+    right: 5px;
+}
