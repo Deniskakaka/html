@@ -1,12 +1,3 @@
 div {
     margin: 16px;
 }
-
-.choose-gender {
-    position: relative;
-}
-
-.male {
-    position: relative;
-    right: 5px;
-}
