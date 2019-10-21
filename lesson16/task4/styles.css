@@ -34,10 +34,13 @@
     outline: none;
 }
 
+.form-label {
+    margin-bottom: 4px;
+}
+
 .form-input:invalid {
     border: 3px solid #ff0000;
-    margin-top: 3px;
-    margin-bottom: 0;
+    margin-top: 4px;
 }
 
 .submit-button {
