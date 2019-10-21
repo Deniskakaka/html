@@ -1,6 +1,5 @@
-input,
-select {
-    margin-bottom: 10px;
+div {
+    margin: 16px;
 }
 
 .main-form {
@@ -8,5 +7,5 @@ select {
 }
 
 input[name="birthTime"] {
-    padding: 3px 30px 3px 3px;
+    padding: 3px 50px 3px 3px;
 }
