@@ -13,6 +13,15 @@ table {
 
 td,
 th {
+    height: 40px;
     padding: 4px;
     border: 1px solid black;
+}
+
+.table_scroll {
+    overflow-x: auto;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: #f2f2f2;
 }
