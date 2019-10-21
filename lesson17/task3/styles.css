@@ -9,6 +9,10 @@ td {
     text-align: center;
 }
 
+th {
+    font-weight: 400;
+}
+
 table {
     border: 1px solid black;
     border-collapse: collapse;
