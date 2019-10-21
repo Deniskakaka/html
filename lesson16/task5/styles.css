@@ -6,3 +6,7 @@ div {
 .main-form {
     margin: 32px;
 }
+
+input[name="birthTime"] {
+    padding-right: 30px;
+}
