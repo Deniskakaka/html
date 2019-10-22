@@ -80,10 +80,12 @@ html {
 }
 
 .nav-list-link {
+    max-width: 100%;
     background-color: #808080;
     text-decoration: none;
     color: white;
-    padding: 0.5em;
+    margin: 0.5em;
+    padding-left: 0.5em;
     display: block;
     overflow: hidden;
     white-space: nowrap;
