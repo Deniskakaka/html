@@ -80,7 +80,7 @@ html {
 }
 
 .nav-list-link {
-    max-width: 100%;
+    min-width: 100%;
     background-color: #808080;
     text-decoration: none;
     color: white;
