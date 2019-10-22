@@ -25,6 +25,6 @@ body {
         top: -100px;
     }
     to {
-        top: 50vh;
+        top: calc(50vh - 50px);
     }
 }
