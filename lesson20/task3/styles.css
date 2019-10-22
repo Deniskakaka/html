@@ -27,7 +27,7 @@
     margin-bottom: 8px;
     border-radius: 50%;
     animation: circle 2s linear infinite;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 @keyframes blinking {
