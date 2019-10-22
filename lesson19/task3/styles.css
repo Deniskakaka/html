@@ -22,7 +22,7 @@
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation: moving 2s, blinking 2s;
+    animation: moving 1s, blinking 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
