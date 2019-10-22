@@ -76,15 +76,14 @@ html {
 .nav-list-item {
     color: white;
     line-height: 2em;
-    padding: 0.5em;
+    margin: 0.5em;
 }
 
 .nav-list-link {
     background-color: #808080;
     text-decoration: none;
     color: white;
-    margin: auto;
-    padding-left: 0.5em;
+    padding: 0.5em;
     display: block;
     overflow: hidden;
     white-space: nowrap;
