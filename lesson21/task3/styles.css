@@ -81,9 +81,8 @@ html {
     background-color: #808080;
     text-decoration: none;
     color: white;
-    width: 100%;
-    padding: 0.5em;
     margin: auto;
+    padding-left: 0.5em;
     display: block;
     overflow: hidden;
     white-space: nowrap;
