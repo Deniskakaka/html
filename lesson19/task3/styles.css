@@ -25,4 +25,5 @@
     animation: moving 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
+    animation-direction: alternate;
 }
