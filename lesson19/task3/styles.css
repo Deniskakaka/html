@@ -25,5 +25,5 @@
     animation: moving 2s, blinking 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-direction: alternate;
+    animation-direction: alternate-reverse;
 }
