@@ -85,4 +85,7 @@ html {
     padding: 0.5em;
     margin: auto;
     display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
