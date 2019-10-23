@@ -86,6 +86,7 @@ html {
     color: white;
     margin: 0.5em;
     padding-left: 0.5em;
+    padding-right: 0.5em;
     display: block;
     overflow: hidden;
     white-space: nowrap;
