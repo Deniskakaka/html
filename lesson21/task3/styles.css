@@ -76,8 +76,6 @@ html {
     color: white;
     line-height: 2em;
     margin: 0.5em;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .nav-list-link {
@@ -86,8 +84,6 @@ html {
     text-decoration: none;
     color: white;
     margin: 0.5em;
-    margin-left: 0;
-    margin-right: 0;
     padding-left: 0.5em;
     padding-right: 0.5em;
     display: block;
