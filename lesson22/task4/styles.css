@@ -58,7 +58,7 @@ html {
     .fa-bars {
         visibility: visible;
     }
-    .header {
+    .navigation {
         visibility: hidden;
     }
 }
