@@ -14,14 +14,13 @@ html {
     display: block;
 }
 
-.fa-bars {
+button {
     visibility: hidden;
     font-size: 2em;
     padding: 0;
-    padding-left: 7px;
-    list-style: none;
+    outline: none;
     border: none;
-    background: none;
+    background: transparent;
     cursor: pointer;
     line-height: 1.5em;
 }
@@ -41,7 +40,6 @@ html {
     height: 2em;
     line-height: 2em;
     margin-bottom: 0.5em;
-    padding-right: 10px;
 }
 
 .nav-list-link {
