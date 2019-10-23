@@ -37,6 +37,7 @@ html {
 
 .navigation {
     width: 20%;
+    padding-top: 10px;
 }
 
 .section {
@@ -76,10 +77,11 @@ html {
     background-color: #808080;
     line-height: 2em;
     margin: 0.5em;
+    max-width: 354px;
+    min-width: 109.19px;
 }
 
 .nav-list-link {
-    width: 100%;
     text-decoration: none;
     color: white;
     padding-left: 0.5em;
