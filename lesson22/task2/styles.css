@@ -61,8 +61,10 @@ main {
         display: flex;
         flex-direction: row !important;
         flex-grow: 2;
+        width: 33.3vh;
     }
     .news {
         flex-grow: 1;
+        width: 33.3vh;
     }
 }
