@@ -60,11 +60,9 @@ main {
     .conteyner {
         display: flex;
         flex-direction: row !important;
-        flex-grow: 1;
+        flex-grow: 2;
     }
-    .news,
-    .nav,
-    .list {
+    .news {
         flex-grow: 1;
     }
 }
