@@ -30,7 +30,7 @@ html {
   cursor: pointer;
 }
 .menu__item_active {
-  color: #9acd32;
+  color: #ff0;
 }
 .menu__item_active:hover {
   background-color: #9acd32;
