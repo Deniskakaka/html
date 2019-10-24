@@ -25,12 +25,6 @@ $lg: 1199px;
     }
 }
 
-@mixin portrat {
-    @media screen and (orientation: portrait) {
-        @content;
-    }
-}
-
 @mixin gorizont {
     @media screen and (orientation: landscape) {
         @content;
