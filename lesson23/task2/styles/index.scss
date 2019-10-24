@@ -36,5 +36,6 @@ body {
     }
     @include gorizont {
         display: flex;
+        flex-direction: row;
     }
 }
