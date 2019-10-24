@@ -52,11 +52,11 @@ button {
 }
 
 .nav-list-link {
-    color: white;
     width: 100%;
     display: inline-block;
-    padding-left: 0.5em;
+    padding: 0 0.5em;
     text-decoration: none;
+    color: white;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -67,6 +67,8 @@ button {
         visibility: visible;
     }
     .navigation {
-        visibility: hidden;
+        display: none;
+        width: 20%;
+        padding: 0.5em;
     }
 }
