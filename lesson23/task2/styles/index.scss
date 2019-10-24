@@ -10,20 +10,30 @@ body {
     height: 100vh;
 }
 
-.container {
-    .square {
-        width: 100px;
-        height: 100px;
-        margin: 8px;
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    background-color: #ff7f50;
+    @include max {
+        background-color: #c47;
+    }
+    @include large {
+        background-color: #a61;
+    }
+    @include middle {
+        background-color: #8a2be2;
+    }
+    @include small {
         background-color: #ff7f50;
-        @include large {
-            background-color: #c47;
-        }
-        @include middle {
-            background-color: #a61;
-        }
-        @include small {
-            background-color: #8a2be2;
-        }
+    }
+}
+
+.container {
+    @include portrat {
+        flex-direction: column;
+    }
+    @include gorizont {
+        flex-direction: row;
     }
 }
