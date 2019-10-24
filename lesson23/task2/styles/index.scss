@@ -5,32 +5,31 @@
 
 body {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    @include for-landscape {
+        flex-direction: row;
+    }
 }
 
 .square {
     width: 100px;
     height: 100px;
-    margin: 16px;
     background-color: #ff7f50;
-    @include max {
-        background-color: #c47;
-    }
-    @include large {
-        background-color: #a61;
-    }
-    @include middle {
+    margin: 8px;
+    @include for-extra-small {
         background-color: #8a2be2;
     }
-    @include small {
-        background-color: #ff7f50;
+    @include for-medium-up {
+        background-color: #a61;
     }
-    @include gorizont {
-        display: inline-block;
-    }
-    @include portrat {
-        display: block;
+    @include for-large-up {
+        background-color: #c47;
     }
 }
