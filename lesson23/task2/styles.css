@@ -35,16 +35,14 @@ body {
     background-color: #ff7f50;
   }
 }
-
-@media screen and (orientation: portrait) {
-  .container {
-    display: flex;
+@media screen and (orientation: landscape) {
+  .square {
+    display: inline-block;
   }
 }
-@media screen and (orientation: landscape) {
-  .container {
-    display: flex;
-    flex-direction: column;
+@media screen and (orientation: portrait) {
+  .square {
+    display: block;
   }
 }
 
