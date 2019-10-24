@@ -13,12 +13,14 @@
 .nav-list__item {
   border-radius: 4px;
   color: #fff;
-  text-transform: uppercase;
   padding: 8px;
   margin-left: 8px;
   font-weight: 700;
   cursor: pointer;
   background-color: #ff7f50;
+}
+.nav-list__item_selected {
+  background-color: #fb0;
 }
 .nav-list__item:hover {
   background-color: #fb0;
