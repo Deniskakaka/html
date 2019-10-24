@@ -98,6 +98,28 @@ img {
     height: auto;
 }
 
+@media screen and (min-width: 900px) {
+    .main {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        flex-wrap: wrap;
+    }
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 60%;
+        flex-grow: 1;
+    }
+    .news {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .main {
         flex-direction: column;
@@ -107,26 +129,5 @@ img {
     .news,
     .footer {
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 899px) {
-    .main {
-        flex-wrap: wrap;
-    }
-    .navigation {
-        flex-grow: 1;
-    }
-    .section {
-        flex-grow: 2;
-    }
-    .news {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    .main {
-        flex-direction: row;
     }
 }
