@@ -30,6 +30,7 @@ body {
 }
 
 .container {
+    display: flex;
     @include portrat {
         display: flex;
         flex-direction: column;
