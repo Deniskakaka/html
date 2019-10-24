@@ -27,7 +27,7 @@ body {
     @include small {
         background-color: #ff7f50;
     }
-    @include gorizont {
+    @include portrat {
         display: inline-block;
     }
 }
