@@ -32,9 +32,9 @@ body {
 .container {
     @include portrat {
         display: flex;
+        flex-direction: column;
     }
     @include gorizont {
         display: flex;
-        flex-direction: column;
     }
 }
